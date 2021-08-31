@@ -5,8 +5,10 @@ Create some layout
 Using NextJS + Bootstrap 5 show how easy layouts can be build. 
 
 ## Usage
-```npm install``
+```npm install```
+
 ```npm run dev```
+
 
 Inital Page should be accessible on http://localhost:3000/
 
