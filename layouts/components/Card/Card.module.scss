@@ -1,0 +1,48 @@
+.card {
+  transition: all 1s;
+  background-color: $colorBlue1;
+  background-size: cover;
+  border-radius: 15px;
+  border: 3px solid transparent;
+  transition: background-size 2s ease-in;
+
+  img {
+    margin-top: 20px;
+  }
+
+  video {
+    height: 305px;
+    position: relative;
+    bottom: -20px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+
+    h1 {
+      text-transform: uppercase;
+    }
+
+    .cta {
+      width: max-content;
+    }
+  }
+
+  &.type2 {
+    h1 {
+      text-transform: none;
+      font-size: 30px;
+    }
+    .content {
+      justify-content: center;
+    }
+  }
+
+  &:hover {
+    border: 3px solid $colorRed1;
+    background-size: contain;
+  }
+}

@@ -1,0 +1,24 @@
+.logoBox {
+  background-color: $colorWhite;
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 12px;
+  height: 90px;
+  width: calc(100% / 6);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  &:last-of-type {
+    margin-right: 0;
+  }
+  img {
+    width: auto;
+    height: 36px;
+  }
+
+  &:hover {
+    img {
+      filter: grayscale(100%);
+    }
+  }
+}

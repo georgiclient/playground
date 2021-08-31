@@ -1,0 +1,43 @@
+body {
+  background-color: $colorBlue2;  
+  line-height: 1.2;
+  color: $colorGrey;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: $colorWhite;
+}
+h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+p, ul {
+    color: $colorGrey;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+main > div > div.row {
+    margin-top: 30px;
+}
+
+// Overwrites
+
+.dropdown-toggle {
+    background: transparent;
+    padding:  10px 20px;
+}
+.dropdown-toggle::after {
+    margin-left: 20px;
+}
+.btn {
+    border-radius: 20px;
+    font-size: 16px;
+}
+.btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
+    background-color: $colorRed1;
+    border-color: $colorRed1;
+}
