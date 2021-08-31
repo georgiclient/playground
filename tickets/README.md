@@ -14,6 +14,7 @@ Write an algorithm in JavaScript that will discover the route of the man based o
 
 ## Usage
 ``` node tickets.js```
+
 You will see 10 tickets and then the route of the journey.
 
 You have the ability to pass an argument for number of tickets that needs to be generated.
